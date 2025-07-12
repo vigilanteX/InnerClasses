@@ -12,7 +12,7 @@ public class Demo1
 
     public static void main(String[] args) {
         /*
-        * Accessing from Outer class static method
+        * Accessing inner class code from Outer class static method
         * */
         Demo1 demo1=new Demo1();
         Demo1.Child child=demo1.new Child();

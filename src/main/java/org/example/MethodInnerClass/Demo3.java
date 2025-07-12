@@ -4,8 +4,8 @@ package org.example.MethodInnerClass;
 public class Demo3 {
 
 
-    private int x = 10;
-    private int y = 20;
+    private static int x = 10;
+    private static int y = 20;
 
     public static void m1() {
         class Inner {

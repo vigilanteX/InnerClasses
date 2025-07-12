@@ -12,6 +12,7 @@ public class Demo2 {
             System.out.println(x);
             //Accessing Inner class instance member
             System.out.println(this.x);
+            // OR System.out.println(Child2.this.x);
             //Accessing Outer class instance member
             System.out.println(Demo2.this.x);
         }
